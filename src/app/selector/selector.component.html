@@ -1,0 +1,5 @@
+<div class="wrapper">
+  <i class="material-icons" (click)="go(-1)">arrow_left</i>
+  <span>{{ dateService.date | async | moment }}</span>
+  <i class="material-icons" (click)="go(1)">arrow_right</i>
+</div>
